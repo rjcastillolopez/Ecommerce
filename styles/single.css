@@ -1,1 +1,122 @@
 /* Styles for about page */
+
+body: {
+   font-family: "Source Sans Pro", sans-serif;
+}
+
+p {
+   font-size: 0.8em;
+   color: #919aa0;
+   line-height: 2em;
+   letter-spacing: 1px;
+}
+
+.main-content {
+   background: #f1f1f1;
+}
+
+.features {
+   background: #ffffff;
+}
+
+.container {
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+}
+
+.sub-tittle {
+   font-size: 0.4em;
+   color: #919aa0;
+   letter-spacing: 2px;
+   display: block;
+   text-transform: uppercase;
+}
+
+h3.tittle {
+   font-size: 2.3em;
+   font-weight: 600;
+   letter-spacing: 2px;
+   color: #292a2b;
+   text-transform: uppercase;
+}
+
+.features-container {
+   background-color: #ffffff;
+}
+
+h3.feature {
+   font-size: 1em;
+   font-weight: 600;
+   color: #1e272e;
+   text-transform: uppercase;
+}
+
+.bottom-container {
+   float: left;
+   width: 100%;
+}
+
+.bottom {
+   box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bottom-active {
+   background: #ff4c4c;
+   box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bottom-active p {
+   color: #ffffff;
+}
+
+.banner {
+   background: #f1f1f1;
+}
+
+.banner-grids {
+   padding: 0;
+   background-color: #f1f1f1;
+}
+
+.banner-image {
+   display: flex;
+   justify-content: center;
+   background-size: cover;
+}
+
+ul.checks li span {
+   color: #ff4c4c;
+   margin-left: 1em;
+   margin-right: 1em;
+}
+
+ul.checks li {
+   color: #566773;
+   font-size: 0.8em;
+   line-height: 2em;
+   letter-spacing: 1px;
+}
+
+.testimonial {
+   background: #ffffff;
+}
+
+.info {
+   padding: 1em 0;
+   margin: 0 auto;
+   width: 75%;
+}
+
+ul.stars li {
+   font-size: 1.5em;
+   line-height: 2em;
+   letter-spacing: 5px;
+   display: inline-block;
+}
+
+.info.p {
+   font-size: 1em;
+   color: #566773;
+   line-height: 2em;
+}
