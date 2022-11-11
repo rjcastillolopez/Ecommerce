@@ -1,1 +1,32 @@
 /* Styles for about page */
+
+body: {
+   font-family: "Source Sans Pro", sans-serif;
+}
+
+.about {
+   background: #f7f7f7;
+}
+
+.container {
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+}
+
+.sub-tittle {
+   flex-wrap: wrap;
+   font-size: 0.3em;
+   color: #919aa0;
+   letter-spacing: 2px;
+   display: block;
+   text-transform: uppercase;
+}
+
+h3.tittle {
+   font-size: 2.5em;
+   font-weight: 600;
+   letter-spacing: 2px;
+   color: #292a2b;
+   text-transform: uppercase;
+}
