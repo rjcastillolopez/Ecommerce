@@ -4,8 +4,19 @@ body: {
    font-family: "Source Sans Pro", sans-serif;
 }
 
-.about {
-   background: #f7f7f7;
+p {
+   font-size: 0.8em;
+   color: #919aa0;
+   line-height: 2em;
+   letter-spacing: 1px;
+}
+
+.main-content {
+   background: #f1f1f1;
+}
+
+.features {
+   background: #ffffff;
 }
 
 .container {
@@ -15,8 +26,7 @@ body: {
 }
 
 .sub-tittle {
-   flex-wrap: wrap;
-   font-size: 0.3em;
+   font-size: 0.4em;
    color: #919aa0;
    letter-spacing: 2px;
    display: block;
@@ -24,9 +34,38 @@ body: {
 }
 
 h3.tittle {
-   font-size: 2.5em;
+   font-size: 2.3em;
    font-weight: 600;
    letter-spacing: 2px;
    color: #292a2b;
    text-transform: uppercase;
+}
+
+.features-container {
+   background-color: #ffffff;
+}
+
+h3.feature {
+   font-size: 1em;
+   font-weight: 600;
+   color: #1e272e;
+   text-transform: uppercase;
+}
+
+.bottom-container {
+   float: left;
+   width: 100%;
+}
+
+.bottom {
+   box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bottom-active {
+   background: #ff4c4c;
+   box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bottom-active p {
+   color: #ffffff;
 }
