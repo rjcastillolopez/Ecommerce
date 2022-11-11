@@ -1,1 +1,18 @@
 /* Styles for login page */
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.container {
+    background-color: #cfecfa;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    padding: 45px 15px;
+}
+
+div {
+    width: 15%;
+}
