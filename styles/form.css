@@ -1,1 +1,20 @@
 /* Styles for login page */
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    background-color: rgb(216, 231, 226);
+    height: 690px;
+    width: 850px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 150px;
+    width: 150px;
+    padding-left: 100px;
+
+}
+
+div {
+    width: 15%;
+}
