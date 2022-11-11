@@ -69,3 +69,30 @@ h3.feature {
 .bottom-active p {
    color: #ffffff;
 }
+
+.banner {
+   background: #f1f1f1;
+}
+
+.banner-grids {
+   padding: 0;
+   background-color: #f1f1f1;
+}
+
+.banner-image {
+   display: flex;
+   justify-content: center;
+   background-size: cover;
+}
+
+ul.checks li span {
+   color: #ff4c4c;
+}
+
+ul.checks li {
+   color: #566773;
+   font-size: 0.8em;
+   line-height: 2em;
+   letter-spacing: 1px;
+   margin-left: 1em;
+}
