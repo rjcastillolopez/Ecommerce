@@ -87,6 +87,8 @@ h3.feature {
 
 ul.checks li span {
    color: #ff4c4c;
+   margin-left: 1em;
+   margin-right: 1em;
 }
 
 ul.checks li {
@@ -94,5 +96,27 @@ ul.checks li {
    font-size: 0.8em;
    line-height: 2em;
    letter-spacing: 1px;
-   margin-left: 1em;
+}
+
+.testimonial {
+   background: #ffffff;
+}
+
+.info {
+   padding: 1em 0;
+   margin: 0 auto;
+   width: 75%;
+}
+
+ul.stars li {
+   font-size: 1.5em;
+   line-height: 2em;
+   letter-spacing: 5px;
+   display: inline-block;
+}
+
+.info.p {
+   font-size: 1em;
+   color: #566773;
+   line-height: 2em;
 }
