@@ -79,7 +79,7 @@ img {
 
 /* MEDIA QUERIES  */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   .banner {
     display: block;
   }
